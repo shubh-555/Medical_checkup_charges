@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'CHARGES FOR FULL BODY CHECKUP</title>
+    <style>
+        body {
+        background-image: url("https://w0.peakpx.com/wallpaper/452/644/HD-wallpaper-ecg-abstract-background-with-human-3d-rendered-heart-stock-colourbox.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        color:chartreuse;
+        }
+
+
+    </style>
+</head>
+<body style="font-size: medium;">
+<center>
+    <h1>FULL BODY CHECKUP ESTIMATE</h1>
+</center>
+<form action="/get_data" method="post">
+     <center>
+
+        <label>Age:</label><input type="number" step = '0.001' name = "html_Age"><br><br>
+
+        <label>Children:</label><input type="number" step = '0.001' name = "html_Children"><br><br>
+
+        <label>Income:</label><input type="number" step = '0.001' name = "html_Income"><br><br>
+
+        <label>VitD_levels:</label><input type="number" step = '0.001' name = "html_VitD_levels"><br><br>
+        
+        <label>Doc_visits:</label><input type="number" step = '0.001' name = "html_Doc_visits"><br><br>
+
+        <label>Overweight(no=0,yes=1):</label><input type="number" step = '0.001' name = "html_Overweight"><br><br>
+        
+        <label>Full_meals_eaten:</label><input type="number" step = '0.001' name = "html_Full_meals_eaten"><br><br>
+    
+        <label>VitD_supp:</label><input type="number" step = '0.001' name = "html_VitD_supp"><br><br>
+
+        <label>Anxiety:</label><input type="number" step = '0.001' name = "html_Anxiety"><br><br>
+
+        <label>Initial_days:</label><input type="number" step = '0.001' name = "html_Initial_days"><br><br>
+
+        <label>Additional_charges:</label><input type="number" step = '0.001' name = "html_Additional_charges"><br><br>
+
+        <label>Area:</label>
+        <select name="html_Area">
+            <option value="Rural">Rural</option>
+            <option value="Suburban">Suburban</option>
+            <option value="Urban">Urban</option>
+        </select><br><br>    
+
+        <label>Initial_admin:</label>
+        <select name="html_Initial_admin">
+            <option value="Emergency Admission">Emergency Admission</option>
+            <option value="Elective Admission">Elective Admission</option>
+            <option value="Observation Admission">Observation Admission</option>
+        </select><br><br>    
+
+        <label>Complication_risk:</label>
+        <select name="html_Complication_risk">
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+        </select><br><br>    
+
+        <label>Services:</label>
+        <select name="html_Services">
+            <option value="Blood Work">Blood Work</option>
+            <option value="Intravenous">Intravenous</option>
+            <option value="CT Scan">CT Scan</option>
+            <option value="MRI">MRI</option>
+        </select><br><br>    
+
+        <label>HighBlood:</label> 
+        <input type="radio" name = 'html_HighBlood' value="Yes"> <label>yes</label>
+        <input type="radio" name = 'html_HighBlood' value="No"> <label>no</label> <br><br>
+
+        
+
+
+        <label>BackPain:</label> 
+        <input type="radio" name = 'html_BackPain' value="Yes"> <label>yes</label>
+        <input type="radio" name = 'html_BackPain' value="No"> <label>no</label> <br><br>
+                        
+
+
+
+
+        </select><br><br>  
+        
+        
+        <input type="submit" value="FULL BODY CHECKUP CHARGES PREDICTION">
+
+        </form><br><br>
+
+        <label for="FULL BODY CHECKUP CHARGES: "></label>{{prediction}}
+
+        </center>
+
+
+
+    
+</body>
+</html>
+
+           
+         
+
+    
